@@ -1,6 +1,6 @@
 import {io} from 'socket.io-client'
 
-const endpoint = 'http://localhost:3000'
+const endpoint = 'https://location-tracking-backend-tblq.onrender.com'
 
 const FrontEndSocket = io( endpoint , {autoConnect : false} )  
 

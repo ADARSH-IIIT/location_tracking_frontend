@@ -5,7 +5,7 @@ axiosinstance.defaults.withCredentials = true
 export { axiosinstance }
 
 
-export const  backend_base_url =  'http://localhost:3000' 
+export const  backend_base_url =  'https://location-tracking-backend-tblq.onrender.com' 
 
 
 
