@@ -19,6 +19,7 @@ import { searchingfalse, searchingtrue } from '../../Redux/actionfunction/search
 import ReactLoading from 'react-loading';
 import { IoSettingsSharp } from "react-icons/io5";
 
+import alert from {useAlert}
 
 import { axiosinstance, backend_base_url } from '../../api_list';
 
