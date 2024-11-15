@@ -17,6 +17,7 @@ import Chat_info from '../location_info/Location_info';
 import { PROFILEclose , PROFILEopen} from '../../Redux/actionfunction/profile_action';
 import { searchingfalse, searchingtrue } from '../../Redux/actionfunction/searching_user_fun';
 import ReactLoading from 'react-loading';
+import { IoSettingsSharp } from "react-icons/io5";
 
 
 import { axiosinstance, backend_base_url } from '../../api_list';
@@ -101,6 +102,13 @@ useEffect(()=>{
 
 
 
+function underdev(){
+  alert.show("feauture under developement")
+
+}
+
+
+
   return (
     
       <div className='rcc flex-coloumn-center'  onClick={()=>{ dispatch( PROFILEclose() ) }}>
@@ -108,10 +116,9 @@ useEffect(()=>{
           <div className='rcc1 flex-row-center'>
                  <div className='rcc11 flex-row-center'>
                         <div className='rcc11i flex-row-center'  onClick={(e)=>{ dispatch( PROFILEopen() ) ; e.stopPropagation() }}><IconButton >< CgProfile  className='icon1'/></IconButton></div>
-                        <div className='rcc11i flex-row-center'><IconButton >< FiPlusCircle  className='icon1'/></IconButton></div>
-                        {/* <div className='rcc11i flex-row-center'><IconButton ><MdGroupAdd  className='icon1'/></IconButton></div> */}
-                        {/* <div className='rcc11i flex-row-center'><IconButton >< FaPersonCircleCheck  className='icon1'/></IconButton></div> */}
-                        <div className='rcc11i flex-row-center'><IconButton ><FaMoon  className='icon1'/></IconButton></div>
+                        <div className='rcc11i flex-row-center'><IconButton >< IoSettingsSharp  className='icon1'  onClick={underdev}/></IconButton></div>
+                       
+                        <div className='rcc11i flex-row-center'><IconButton ><FaMoon  className='icon1'  onClick={underdev}/></IconButton></div>
                         <div className='rcc11i flex-row-center'  onClick={()=>{dispatch( SIDEBARclose())}} ><IconButton ><GiEntryDoor className='icon1' /></IconButton> </div>
 
                  </div>

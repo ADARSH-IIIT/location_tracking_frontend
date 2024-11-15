@@ -13,7 +13,7 @@ import { PROFILEclose } from '../../Redux/actionfunction/profile_action';
 import { axiosinstance, update_profile_api  , update_username_api } from '../../api_list';
 
 
-import profile_image from './profile.png'
+import profile_photo_default from './profile.webp'
 
 
 
@@ -165,7 +165,7 @@ async function saveusername(){
 
     <div className='pc flex-coloumn-start'>
         <div className='pc1 flex-row-center'>
-            <div className='pc11 flex-row-center'> <img scr={profile_image} alt="404 not found" height={"100%"} width={"100%"}  /> </div>  
+            <div className='pc11 flex-row-center'> <img scr={profile_photo_default} alt="404 not found" height={"100%"} width={"100%"}  /> </div>  
         </div>
 
         <div className='pc2 flex-row-center username'>  
