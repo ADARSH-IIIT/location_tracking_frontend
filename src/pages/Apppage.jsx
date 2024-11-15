@@ -145,7 +145,7 @@ function underdev(){
 
 function navigatetoyoutube(){
 
-  navigate('https://www.youtube.com/watch?v=your_video_')
+  window.open('https://www.youtube.com/watch?v=your_video_')
 
 }
 

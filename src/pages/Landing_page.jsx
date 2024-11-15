@@ -40,10 +40,10 @@ export default function LandingPage() {
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
           <button
-            className="px-8 py-3 bg-blue-600 hover:bg-white-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]   text-2xl"  onClick={handleButtonClick}>
+            className="landing_page_button bluecolr"  onClick={handleButtonClick}>
             Get Started
           </button>
-          <button className="px-8 bg-white py-3   text-2xl transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset] set-black"  onClick={openYouTubeVideo}     >Get a Demo</button>
+          <button className="landing_page_button"  onClick={openYouTubeVideo}     >Get a Demo</button>
         </div>
       </Vortex>
     </div>)
