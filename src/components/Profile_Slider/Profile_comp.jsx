@@ -165,7 +165,7 @@ async function saveusername(){
 
     <div className='pc flex-coloumn-start'>
         <div className='pc1 flex-row-center'>
-            <div className='pc11 flex-row-center'> <img scr='https://res.cloudinary.com/adarshtech251/image/upload/v1703090153/chat_app_user_profile_pic/default_profile_pic_hk0dft.png' alt="slow network error" height="100%" width="100%"  /> </div>  
+            <div className='pc11 flex-row-center'> <img src ='https://res.cloudinary.com/adarshtech251/image/upload/v1703090153/chat_app_user_profile_pic/default_profile_pic_hk0dft.png' alt="slow network error" height="100%" width="100%"  /> </div>  
         </div>
 
         <div className='pc2 flex-row-center username'>  
