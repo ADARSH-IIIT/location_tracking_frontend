@@ -22,7 +22,7 @@ import ReactLoading from 'react-loading';
 import { IoIosInformationCircleOutline } from "react-icons/io";
 import FrontEndSocket from '../SOCKET/frontend_socket';
 import { useAlert } from 'react-alert'
-
+import { FaLocationDot } from "react-icons/fa6";
 
 import { logout_api, whoiam_api  , isloggedin_api, axiosinstance } from '../api_list';
 
@@ -165,7 +165,7 @@ function navigatetoyoutube(){
                                             <div className='ap111 flex-row-center'> {myinfo.profile_pic ? <img src={myinfo.profile_pic} alt="404 not found" /> : <div>profile pic</div>} </div>
                                         </div>
                                         <div className='apg12 flex-coloumn-center'>
-                                            <div className='apg12i flex-row-center'  onClick={()=>{dispatch(SIDEBARopen())}}><Tooltip title={"get recent chats"} arrow placement='right-end'><IconButton ><GiExitDoor className='icon' /></IconButton> </Tooltip > </div>
+                                            <div className='apg12i flex-row-center'  onClick={()=>{dispatch(SIDEBARopen())}}><Tooltip title={"get recent chats"} arrow placement='right-end'><IconButton >< FaLocationDot className='icon' /></IconButton> </Tooltip > </div>
                                             <div className='apg12i flex-row-center'  onClick={()=>{dispatch(PROFILEopen())}}><Tooltip title="your profile" arrow placement='right-end'><IconButton    >< CgProfile  className='icon'/></IconButton> </Tooltip ></div>
                                             {/* <div className='apg12i flex-row-center'><Tooltip title="add a friend" arrow placement='right-end'><IconButton >< FiPlusCircle  className='icon'/></IconButton> </Tooltip ></div> */}
                                             {/* <div className='apg12i flex-row-center'><Tooltip title="online users" arrow placement='right-end'><IconButton >< FaPersonCircleCheck  className='icon'/></IconButton> </Tooltip ></div> */}
