@@ -18,8 +18,7 @@ import { PROFILEclose , PROFILEopen} from '../../Redux/actionfunction/profile_ac
 import { searchingfalse, searchingtrue } from '../../Redux/actionfunction/searching_user_fun';
 import ReactLoading from 'react-loading';
 import { IoSettingsSharp } from "react-icons/io5";
-
-import alert from {useAlert}
+import { useAlert } from 'react-alert'
 
 import { axiosinstance, backend_base_url } from '../../api_list';
 
