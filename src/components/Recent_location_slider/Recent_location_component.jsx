@@ -150,13 +150,11 @@ function underdev(){
                                : 
                                
                            
-                               oldfriendlist ? 
+                             
                                     
-                                    oldfriendlist.error ? <div className='nuf'>{oldfriendlist.mssg}</div>  : <Chat_info username = "my group" _id= {myinfo._id} key = "my group" />
+                                   <Chat_info username = "my group" _id= {myinfo._id} key = "my group" />
                                     
-                                    :  
-                                     
-                                     <div   > <ReactLoading type={'bubbles'} color={"white"}/> </div>
+                                 
                     
                                 
                                   
