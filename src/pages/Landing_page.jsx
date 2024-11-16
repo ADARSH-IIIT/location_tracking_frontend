@@ -43,7 +43,7 @@ export default function LandingPage() {
             className="landing_page_button bluecolr"  onClick={handleButtonClick}>
             Get Started
           </button>
-          <button className="landing_page_button"  onClick={openYouTubeVideo}     >Get a Demo</button>
+          {/* <button className="landing_page_button"  onClick={openYouTubeVideo}     >Get a Demo</button> */}
         </div>
       </Vortex>
     </div>)
